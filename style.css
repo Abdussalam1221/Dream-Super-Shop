@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+html { 
+    background-color: #EDF2F7;
+    background-size: cover;
+}
+.form-container{
+    background-color: #ffffff;
+    min-height: 500px;
+    height: auto;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 3%;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+    width: 97%;
+    text-align: center;
+}
+h3{
+    font-size: 35px;
+    font-weight: 900;
+    padding: 0px;
+    margin-bottom: -10px;
+    margin: 0px;
+    color: rgb(11, 10, 10);
+    font-family: 'Montserrat';
+}
+h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(11, 10, 10);
+}
+input.box1{
+    float: left;
+    width: 44%;
+    margin-right: 2%;
+    padding: 10px;
+    padding-right: 0px;
+    font-size: 16px;
+    font-weight: 520;
+    margin-bottom: 16px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    border-color:#E8E8E8;
+}
+input.box, input.box3, input.box4,#btn,#btn_login{
+    width: 91%;
+    margin-right: 2%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 520;
+    margin-bottom: 16px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    border-color:#E8E8E8;
+}
+span{
+    color: rgb(47, 146, 240);
+    cursor: pointer;
+}
+
+
+#btn,#btn_login{
+    width: 97%;
+    background-color:#9b9ae7;
+    border-radius: 5px;
+    border-color:#9b9ae7;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+}
+#btn_login{
+    width: 91%;
+    cursor: pointer;
+}
+
+/*login page start here*/
+img{
+    align-items: center;
+}
+
+h3#wrapp_login {
+    text-align: center;
+}
+
+/* Product view*/
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    justify-content: center;
+    gap:1.5rem;
+    max-width: 1200px;
+    margin:0 auto;
+    align-items: flex-start;
+ }
+ 
+ .products{
+    padding-top: 0;
+ }
+ 
+ .products .box-container .box{
+    
+    text-align: center;
+    padding:2rem;
+    border-radius: .5rem;
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    background-color: var(--white);
+ }
+ 
+ .products .box-container .box img{
+    height: 30rem;
+ }
+ 
+.products.box-container .box .name{
+    padding:1rem 0;
+    font-size: 2rem;
+    color:var(--black);
+ }
+ 
+ .products .box-container .box .price{
+    padding:1rem 0;
+    font-size: 2.5rem;
+    color:var(--red);
+ }
